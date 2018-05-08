@@ -1,0 +1,10 @@
+{
+  "name": "demo-app",
+  "version": "1.0.0",
+  "dependencies": {
+    "test-package": "git+https://github.com/petar-iv/demo-package.git"
+  },
+  "scripts": {
+    "start": "node node_modules/demo-package/file.js"
+  }
+}

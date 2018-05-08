@@ -1,0 +1,10 @@
+---
+applications:
+
+- name: works-with-1-6-21
+  memory: 128M
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack/releases/download/v1.6.21/nodejs-buildpack-v1.6.21.zip
+
+- name: reproduce-with-1-6-23
+  memory: 128M
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack/releases/download/v1.6.23/nodejs-buildpack-v1.6.23.zip
